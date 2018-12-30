@@ -15,7 +15,7 @@ const nav = [
   },
   {
     text: 'js技巧',
-    link: '/js_tricks/cursor/'
+    link: '/js_tricks/reg/'
   },
   {
     text: '文章',
@@ -87,17 +87,17 @@ const sidebar = {
   ],
   '/js_tricks/': [
     {
-      title: '工具',
+      title: '常用验证',
       collapsable: false,
       children: [
-        'cursor/'
+        'reg/'
       ]
     },
     {
-      title: 'ces工具',
+      title: '方法一',
       collapsable: false,
       children: [
-        'accordion/'
+        'block/'
       ]
     },
   ]
