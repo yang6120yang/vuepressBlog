@@ -1,0 +1,36 @@
+# 文件释义
+
+- accordion  手风琴
+- align 参数列表自适应对齐
+- bottom 底部自适应
+- createTriangle 三角生成器
+- triangle 三角边框，三角阴影
+- cursor 手型
+- ellipsis 省略字段
+- filterTemp filter滤镜
+- flexbox flex布局
+- glass 毛玻璃效果
+- grid grid布局
+- hollowOut-circle 圆形镂空
+- hoverBg 按钮悬停背景色变化
+- lineBreak 换行
+- loading 加载动画
+- longText 长文本
+- media 媒体查询
+- mixBlendMode 混合模式
+- multilpleEllipsis 多行文字超出显示省略号
+- object 作用于替换元素
+- paper 纸张效果
+- parabola 抛物线
+- positionWidth 绝对定位宽度自动撑开
+- shadowTemp 多边形阴影
+- remDpi Rem和Dpi
+- reset 清除默认样式
+- scrollTemp 滚动条样式
+- shadow 阴影
+- singleEllipsis 单行文字超出显示省略号
+- spring 弹簧动画
+- tab 切换
+- textShadow 文本特效
+- verticalMiddle 垂直居中
+- hoverBorder 按钮悬停边框变化
