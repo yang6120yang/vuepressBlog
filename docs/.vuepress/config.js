@@ -35,6 +35,7 @@ const sidebar = {
       title: '布局及全局',
       collapsable: false,
       children: [
+        'alignCenter/',
         'flexbox/',
         'grid/',
         'reset/',
@@ -51,11 +52,11 @@ const sidebar = {
         'verticalMiddle/',
         'align/',
         'longText/',
-        'lineBreak/', 
-        'ellipsis/', 
-        'scrollTemp/', 
+        'lineBreak/',
+        'ellipsis/',
+        'scrollTemp/',
         'triangle/',
-        'filter/', 
+        'filter/',
         'object/',
         'mixBlendMode/'
       ]
@@ -67,7 +68,7 @@ const sidebar = {
         'accordion/',
         'hover/',
         'loading/',
-        'spring/', 
+        'spring/',
         'parabola/'
       ]
     },
@@ -76,26 +77,40 @@ const sidebar = {
       collapsable: false,
       children: [
         'paper/',
-        'glass/', 
+        'glass/',
         'hollowOut/',
         'textShadow/',
         'positionWidth/',
-        'bottom/', 
+        'bottom/',
         'tab/'
       ]
     }
   ],
   '/js_tricks/': [
     {
+      title: '数组相关',
+      collapsable: true,
+      children: [
+        'array/'
+      ]
+    },
+    {
       title: '常用验证',
-      collapsable: false,
+      collapsable: true,
       children: [
         'reg/'
       ]
     },
     {
+      title: '精彩特效',
+      collapsable: true,
+      children: [
+        'activatePowerMode/'
+      ]
+    },
+    {
       title: '方法一',
-      collapsable: false,
+      collapsable: true,
       children: [
         'block/'
       ]
@@ -130,7 +145,7 @@ var config = {
     sidebarDepth: 1,
     sidebar
   },
-  plugins: ['@vuepress/back-to-top'] 
+  plugins: ['@vuepress/back-to-top']
 }
 
 module.exports = config
