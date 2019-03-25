@@ -128,7 +128,7 @@ var config = {
   title: 'Umeus Blog',
   description: '前端踩坑之路，学习各路大神，走出属于自己的路!',
   dest: './dist', // 设置输出目录
-  base: '/umeus/',
+  base: '/',
   head: [
     ['link', { rel: 'icon', href: '/images/favicon.png' }],
     ['meta', { name: 'theme-color', content: '#00adb5' }],
