@@ -28,7 +28,8 @@ const sidebar = {
       title: '工具',
       collapsable: false,
       children: [
-        'createTriangle/'
+        'createTriangle/',
+        'sector/'
       ],
     },
     {
@@ -40,7 +41,9 @@ const sidebar = {
         'grid/',
         'reset/',
         'remDpi/',
-        'mdedia/'
+        'mdedia/',
+        'landscapeScreen/',
+        'polygonLayout/'
       ]
     },
     {
@@ -50,6 +53,7 @@ const sidebar = {
         'cursor/',
         'shadow/',
         'verticalMiddle/',
+        'vertical/',
         'align/',
         'longText/',
         'lineBreak/',
@@ -69,7 +73,9 @@ const sidebar = {
         'hover/',
         'loading/',
         'spring/',
-        'parabola/'
+        'parabola/',
+        'notCSS/ripple',
+        'notCSS/wave'
       ]
     },
     {

@@ -13,6 +13,7 @@
 - grid grid布局
 - hollowOut-circle 圆形镂空
 - hoverBg 按钮悬停背景色变化
+- landscapeScreen 强制横屏
 - lineBreak 换行
 - loading 加载动画
 - longText 长文本
@@ -22,8 +23,10 @@
 - object 作用于替换元素
 - paper 纸张效果
 - parabola 抛物线
+- polygonLayout 多边形布局
 - positionWidth 绝对定位宽度自动撑开
 - shadowTemp 多边形阴影
+- sector 扇形编辑器
 - remDpi Rem和Dpi
 - reset 清除默认样式
 - scrollTemp 滚动条样式
@@ -34,3 +37,5 @@
 - textShadow 文本特效
 - verticalMiddle 垂直居中
 - hoverBorder 按钮悬停边框变化
+- wave 波浪
+- ripple 涟漪
