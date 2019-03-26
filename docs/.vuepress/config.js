@@ -94,6 +94,27 @@ const sidebar = {
   ],
   '/js_tricks/': [
     {
+      title: 'DOM相关',
+      collapsable: true,
+      children: [
+        'jsDom/jsDomApi'
+      ]
+    },
+    {
+      title: 'BOM相关',
+      collapsable: true,
+      children: [
+        'jsBom/jsBomApi'
+      ]
+    },
+    {
+      title: 'Object相关',
+      collapsable: true,
+      children: [
+        'jsObject/jsObjectApi'
+      ]
+    },
+    {
       title: '数组相关',
       collapsable: true,
       children: [
@@ -115,10 +136,11 @@ const sidebar = {
       ]
     },
     {
-      title: '方法一',
+      title: '常用方法',
       collapsable: true,
       children: [
-        'block/'
+        'block/README1',
+        'block/README2'
       ]
     },
   ]
