@@ -112,15 +112,15 @@ npm config get proxy # 查看 代理地址
 追加环境变量：变量名：Path 变量值：D:\nodejs;D:\nodejs\node_global\ ;D:\Program Files\Git\bin;E:\Program Files\Git\mingw64\libexec\git-core;
 ```
 
-node.js入门1
-node.js入门2
-express搭建web应用案例
+[node.js入门1](https://www.nodebeginner.org/index-zh-cn.html#javascript-and-nodejs)
+[node.js入门2](http://ourjs.com/detail/529ca5950cb6498814000005)
+[express搭建web应用案例](http://blog.fens.me/nodejs-express4/)
 [淘宝npm镜像](http://npm.taobao.org/ "淘宝npm镜像")
 [淘宝npm镜像registry](http://registry.npm.taobao.org/)
 [cnpmjs镜像](http://cnpmjs.org)
 [cnpmjs镜像registry](http://r.cnpmjs.org)
-搭建企业级npm
-node.js中文社区
+[搭建企业级npm](http://cnpmjs.org/)
+[node.js中文社区](https://cnodejs.org/)
 
 ## 需要全局安装的npm模块
 
