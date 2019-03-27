@@ -21,7 +21,8 @@
     "prismjs": "^1.15.0",
     "sass-loader": "^7.1.0",
     "scss-loader": "^0.0.1",
-    "vuepress": "^0.14.4"
+    "vuepress": "^0.14.4",
+    "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
     "element-ui": "^2.4.8",

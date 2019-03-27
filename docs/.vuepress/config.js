@@ -129,6 +129,15 @@ const sidebar = {
       ]
     },
     {
+      title: '常用命令',
+      collapsable: true,
+      children: [
+        'command/nodeCommand',
+        'command/gitCommand',
+        'command/linuxCommand'
+      ]
+    },
+    {
       title: '精彩特效',
       collapsable: true,
       children: [
@@ -150,7 +159,7 @@ var config = {
   title: 'Umeus Blog',
   description: '前端踩坑之路，学习各路大神，走出属于自己的路!',
   dest: './dist', // 设置输出目录
-  base: '/',
+  base: '/', // /UmeusYoung/vuepressBlog/ 执行run build命令的路径
   head: [
     ['link', { rel: 'icon', href: '/images/favicon.png' }],
     ['meta', { name: 'theme-color', content: '#00adb5' }],
