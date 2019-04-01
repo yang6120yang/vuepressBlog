@@ -118,7 +118,8 @@ const sidebar = {
       title: '数组相关',
       collapsable: true,
       children: [
-        'array/'
+        'array/README1',
+        'array/README2'
       ]
     },
     {
