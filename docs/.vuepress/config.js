@@ -15,7 +15,7 @@ const nav = [
   },
   {
     text: 'js技巧',
-    link: '/js_tricks/cursor/'
+    link: '/js_tricks/reg/'
   },
   {
     text: '文章',
@@ -28,18 +28,22 @@ const sidebar = {
       title: '工具',
       collapsable: false,
       children: [
-        'createTriangle/'
+        'createTriangle/',
+        'sector/'
       ],
     },
     {
       title: '布局及全局',
       collapsable: false,
       children: [
+        'alignCenter/',
         'flexbox/',
         'grid/',
         'reset/',
         'remDpi/',
-        'mdedia/'
+        'mdedia/',
+        'landscapeScreen/',
+        'polygonLayout/'
       ]
     },
     {
@@ -49,13 +53,14 @@ const sidebar = {
         'cursor/',
         'shadow/',
         'verticalMiddle/',
+        'vertical/',
         'align/',
         'longText/',
-        'lineBreak/', 
-        'ellipsis/', 
-        'scrollTemp/', 
+        'lineBreak/',
+        'ellipsis/',
+        'scrollTemp/',
         'triangle/',
-        'filter/', 
+        'filter/',
         'object/',
         'mixBlendMode/'
       ]
@@ -67,8 +72,10 @@ const sidebar = {
         'accordion/',
         'hover/',
         'loading/',
-        'spring/', 
-        'parabola/'
+        'spring/',
+        'parabola/',
+        'notCSS/ripple',
+        'notCSS/wave'
       ]
     },
     {
@@ -76,28 +83,74 @@ const sidebar = {
       collapsable: false,
       children: [
         'paper/',
-        'glass/', 
+        'glass/',
         'hollowOut/',
         'textShadow/',
         'positionWidth/',
-        'bottom/', 
+        'bottom/',
         'tab/'
       ]
     }
   ],
   '/js_tricks/': [
     {
-      title: '工具',
-      collapsable: false,
+      title: 'DOM相关',
+      collapsable: true,
       children: [
-        'cursor/'
+        'jsDom/jsDomApi'
       ]
     },
     {
-      title: 'ces工具',
-      collapsable: false,
+      title: 'BOM相关',
+      collapsable: true,
       children: [
-        'accordion/'
+        'jsBom/jsBomApi'
+      ]
+    },
+    {
+      title: 'Object相关',
+      collapsable: true,
+      children: [
+        'jsObject/jsObjectApi'
+      ]
+    },
+    {
+      title: '数组相关',
+      collapsable: true,
+      children: [
+        'array/README1',
+        'array/README2'
+      ]
+    },
+    {
+      title: '常用验证',
+      collapsable: true,
+      children: [
+        'reg/'
+      ]
+    },
+    {
+      title: '常用命令',
+      collapsable: true,
+      children: [
+        'command/nodeCommand',
+        'command/gitCommand',
+        'command/linuxCommand'
+      ]
+    },
+    {
+      title: '精彩特效',
+      collapsable: true,
+      children: [
+        'activatePowerMode/'
+      ]
+    },
+    {
+      title: '常用方法',
+      collapsable: true,
+      children: [
+        'block/README1',
+        'block/README2'
       ]
     },
   ]
@@ -107,7 +160,7 @@ var config = {
   title: 'Umeus Blog',
   description: '前端踩坑之路，学习各路大神，走出属于自己的路!',
   dest: './dist', // 设置输出目录
-  base: '/umeus/',
+  base: '/', // /UmeusYoung/vuepressBlog/ 执行run build命令的路径
   head: [
     ['link', { rel: 'icon', href: '/images/favicon.png' }],
     ['meta', { name: 'theme-color', content: '#00adb5' }],
@@ -130,7 +183,7 @@ var config = {
     sidebarDepth: 1,
     sidebar
   },
-  plugins: ['@vuepress/back-to-top'] 
+  plugins: ['@vuepress/back-to-top']
 }
 
 module.exports = config
